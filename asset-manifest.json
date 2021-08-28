@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-pokemoncard-app/static/css/main.21b8c467.chunk.css",
+    "main.js": "/react-pokemoncard-app/static/js/main.32782d2f.chunk.js",
+    "main.js.map": "/react-pokemoncard-app/static/js/main.32782d2f.chunk.js.map",
+    "runtime-main.js": "/react-pokemoncard-app/static/js/runtime-main.fb3e9345.js",
+    "runtime-main.js.map": "/react-pokemoncard-app/static/js/runtime-main.fb3e9345.js.map",
+    "static/js/2.ac29ae3b.chunk.js": "/react-pokemoncard-app/static/js/2.ac29ae3b.chunk.js",
+    "static/js/2.ac29ae3b.chunk.js.map": "/react-pokemoncard-app/static/js/2.ac29ae3b.chunk.js.map",
+    "index.html": "/react-pokemoncard-app/index.html",
+    "static/css/main.21b8c467.chunk.css.map": "/react-pokemoncard-app/static/css/main.21b8c467.chunk.css.map",
+    "static/js/2.ac29ae3b.chunk.js.LICENSE.txt": "/react-pokemoncard-app/static/js/2.ac29ae3b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb3e9345.js",
+    "static/js/2.ac29ae3b.chunk.js",
+    "static/css/main.21b8c467.chunk.css",
+    "static/js/main.32782d2f.chunk.js"
+  ]
+}
