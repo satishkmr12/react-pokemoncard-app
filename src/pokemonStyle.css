@@ -1,0 +1,143 @@
+.search {
+    float: right;
+    margin: 6px;
+}
+.search button{
+    background-color: #0074D9;
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+.search input[type=text]{
+    width:300px;
+    height:25px;
+    border-radius:25px;
+    border: none;
+}  
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0.5rem;
+}
+  .app-contaner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 3rem 0.5rem;
+  }
+  .pokemon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .all-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .pokemon-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0 ;
+    margin: 0.3rem;
+    border: 1px solid #efefef;
+    border-radius: 0.2rem;
+    min-width: 160px;
+    text-align: center;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
+  }
+  h3 {
+    margin-bottom: 0.4rem;
+  }
+  .pokemon-card .number {
+    border-radius: 1rem;
+    padding: 0.2rem 0.4rem;
+    background-color: rgba(255,255,255,0.3);
+  }
+  .pokemon-card img {
+    width: 120px;
+    height: 120px;
+  }
+  .pokemon-card small {
+    text-transform: capitalize;
+  }
+  .detail-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .detail-wrapper button {
+    color: rgb(22, 22, 22);
+    padding: .5rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.185);
+  }
+
+  .pokemon-card:hover{
+    transform: translateY(0) scale(1.2);
+    cursor: pointer;
+  }
+  .background{
+    width: 95%;
+    height: 95%;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 28%;
+  }
+  .ModalWrapper{
+    width: 800px;
+    height: 500px;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    color: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    z-index: 10;
+    border-radius: 10px;
+  }
+  .ModalImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    background: #000;
+  }
+  .ModalContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.8;
+    color: #141414;
+  }
+  .close-button {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 32px;
+    padding: 0;
+    z-index: 10;
+    text-size-adjust: 25px;
+  }
+  body{
+    background-color:lightblue;
+  }
